@@ -81,11 +81,9 @@ void draw() {
 It will check that whether we had pressed the UP key than it will change the value of boolean to True.
 */
 void keyPressed(){
-   if(key == CODED){
-       if(keyCode == UP){
-         key1 = true;
-         
-       }
+   if(key == 'a'){
+     System.out.println("The key is pressed!!");    
+     key1 = true;
    }
    else{
     key1 = false; 
