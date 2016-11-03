@@ -13,8 +13,8 @@ PImage img3;
 void setup() {
   size(500,500);
   //fullScreen();
-  img1 = loadImage("totoro_crouching.png");
-  img3 = loadImage("totoro_standing.png");
+  img1 = loadImage("crouching.png");
+  img3 = loadImage("standing.png");
   
   bamboos = new ArrayList<Bamboo>();
   
